@@ -1,0 +1,56 @@
+<!--
+File: header.ejs
+Ethan Kyle San Juan-Cheong
+301069513
+October 8 2020
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= title %></title>
+  <!-- CSS Section -->
+  <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel='stylesheet' href='./Content/app.css' />
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <img src="./Pictures/ESLogo.png" loading="logo" Width="110" Height="30">
+  <a class="navbar-brand" href="/">ES</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="/"><i class="fas fa-home"></i> Home </a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="/about"><i class="fas fa-info"></i> About </a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="/projects"><i class="fas fa-folder"></i> Projects </a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="/services"><i class="fas fa-globe"></i> Services </a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="/contact"><i class="fas fa-mobile"></i> Contact </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+</body>
+
+</html>
