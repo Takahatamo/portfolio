@@ -7,13 +7,12 @@ Date: 9/28/2020
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  /*background-color: BFEDEF; original
-  background-color: #42455a;*/
   background-color: #acdde7;
 }
 .jumbotron {
   background-color: #caebf2;
 }
+
 html {
   box-sizing: border-box;
 }
