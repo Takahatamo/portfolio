@@ -26,4 +26,8 @@ router.get("/contact", function (req, res, next) {
   res.render("contact", { title: "Contact" });
 });
 
+/* GET Login View page */
+router.get("/login", function (req, res, next) {
+  res.render("login", { title: "Login" });
+});
 module.exports = router;
